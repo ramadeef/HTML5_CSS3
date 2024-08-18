@@ -1,0 +1,50 @@
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.header{
+     color: darkolivegreen;
+     font-size: 30px; 
+     padding-left: 20px;
+     border: 2px solid black;
+     margin: 20px;
+     animation: fade-in 2s
+}
+   
+.input{
+    display: block;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fade-in 2s
+}
+.text{
+    text-align: center;
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 1s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(2);
+}
+
+.input:focus{
+    transform: scale(2);
+}
